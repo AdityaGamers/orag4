@@ -1,0 +1,39 @@
+
+.header{
+  background-color: blue;
+  font-size: large;
+}
+.intro{
+  background-color: green;
+  
+}
+.grid{
+  background-color: blanchedalmond;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footer{
+  background-color: blue;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+}
+.item{
+  position:relative ;
+  }
+.item:hover img{
+  opacity:0.3;
+} 
+.item p{
+
+position:absolute;
+ top:80%;
+ left:50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+color: #ff0000;
+}
+.item:hover p{
+  opacity: 1;
+}
